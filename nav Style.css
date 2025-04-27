@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url(./images.jfif) no-repeat;
+    background-size: cover;
+}
+.head{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 50px;;
+    background: yellowgreen;
+
+}
+.icon{
+    padding: 4px;
+    position: relative;
+    left:1px;
+    width: 20px;
+    height: 40px;
+    color: blanchedalmondgi;
+}
+.logo{
+    position: absolute;
+    color: purple;
+    font-size: 20px;
+    font-weight: 20px;
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+ 
+.container-in {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    cursor:grab;
+}
